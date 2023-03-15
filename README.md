@@ -3,31 +3,7 @@
 
 Why? 
 
-### Initial Setup
 
-- Fork the [original repo](https://github.com/yearn/yearn.fi) into your GitHub account
-- Clone the forked repo from your GitHub account to your local machine
-
-  ```
-  git clone https://github.com/<your-gh>/yearn.fi.git
-  ```
-
-- Set origin to your fork. This is where you push your changes to. This is done automatically by the step above.
-
-  ```
-  git remote add origin https://github.com/<your-gh>/yearn.fi
-  ```
-
-- Set upstream to original repo.
-
-  ```
-  git remote add upstream https://github.com/yearn/yearn.fi.git
-  ```
-
-- Optional: Create `.env` file in root directory of repo then copy contents of `.env.example` to `.env` and replace values with your own keys. If you do not do this the default values from `next.config.js` will be used.
-
-  ```
-  cp .env.example .env
 
 ### Install and run
 1. Run `yarn`
