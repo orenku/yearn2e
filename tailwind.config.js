@@ -16,6 +16,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			backgroundColor: {
+				'neutral-0': 'rgb(121,65,34)'
+			},
 			fontFamily: {
 				aeonik: ['var(--font-aeonik)', 'Aeonik', ...defaultTheme.fontFamily.sans],
 				mono: ['Aeonik Mono', ...defaultTheme.fontFamily.mono]

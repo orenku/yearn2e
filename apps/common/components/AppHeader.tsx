@@ -129,11 +129,12 @@ export function	AppHeader(): ReactElement {
 			return [1];
 		}
 
-		return [1, 10, 250, 42161];
+		return [1, 10, 250, 42161, 56, 97, 43114, 43113, 137, 80001];
 	}, [pathname]);
 
 	return (
 		<Header
+			className={'text-orange-500'}
 			linkComponent={<Link href={''} />}
 			currentPathName={pathname}
 			onOpenMenuMobile={onOpenMenu}

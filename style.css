@@ -46,7 +46,7 @@
 	--x-px: calc(var(--x) * 1px);
 	--y-px: calc(var(--y) * 1px);
 	--opacity: var(--opacity);
-	--color: hsl(var(--color-neutral-300));
+	--color: hsl(var(--color-orange-300));
 	@apply relative flex aspect-video h-full w-full cursor-pointer flex-col items-center border border-neutral-300/50 p-6 shadow shadow-transparent transition-all duration-[400ms];
 
 	&:before,

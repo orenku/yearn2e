@@ -92,7 +92,7 @@ function	MyApp(props: AppProps): ReactElement {
 			<WithYearn
 				options={{
 					web3: {
-						supportedChainID: [1, 10, 250, 42161, 1337]
+						supportedChainID: [1, 10, 250, 42161, 56, 97, 43114, 43113, 137, 80001]
 					},
 					baseSettings: {
 						yDaemonBaseURI: process.env.YDAEMON_BASE_URI as string

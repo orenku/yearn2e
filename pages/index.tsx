@@ -194,7 +194,7 @@ function	Index(): ReactElement {
 					<TextAnimation />
 				</div>
 				<div className={'my-8'}>
-					<p className={'text-center text-lg md:text-2xl'}>
+					<p className={'text-center text-lg text-orange-600 md:text-2xl'}>
 						{'With '}
 						<b>{'Yearn'}</b>
 						{'. The Yield Protocol.'}
@@ -202,12 +202,12 @@ function	Index(): ReactElement {
 				</div>
 				<div className={'mb-6'}>
 
-					<p className={'text-center text-sm text-neutral-500 md:text-base'}>
+					<p className={'text-center text-sm text-orange-600 md:text-base'}>
 						<Balancer>{'Yearn is a decentralized suite of products helping individuals, DAOs, and other protocols\nearn yield on their digital assets.'}</Balancer>
 					</p>
 				</div>
 			</div>
-			<section className={'grid grid-cols-1 gap-10 md:grid-cols-3 lg:grid-cols-4'}>
+			<section className={'lg:gap-30 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-2'}>
 				{apps.map((app): ReactElement => <AppBox key={app.href} app={app} />)}
 			</section>
 		</>
